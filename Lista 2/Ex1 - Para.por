@@ -3,10 +3,10 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro pessoas = 3, mediaFilho = 0
+		inteiro pessoas = 20, mediaFilho = 0
 		real salario, filho, maiorSalario = 0.0,  mediaSalario = 0.0, percentual = 0.0
 
-		para (inteiro x = 1; x <= 3; x++){
+		para (inteiro x = 1; x <= 20; x++){
 			escreva("Qual o salário da pessoa ", x , "? ")
 			leia(salario)
 			escreva("Quantos filhos a pessoa ", x , " tem? ")
@@ -28,10 +28,10 @@ programa
 			mediaFilho += filho
 		
 		}
-			escreva("\n Maior salário: ", maiorSalario/3)
-			escreva("\n Média salarial: ", mediaSalario/3)
+			escreva("\n Maior salário: ", maiorSalario/20)
+			escreva("\n Média salarial: ", mediaSalario/20)
 			escreva("\n Média de filhos: ", mediaFilho)
-			escreva("\nO percentual de pessoas com salário até ", "R$100,00 é ", percentual / 3 * 100, "%\n")
+			escreva("\nO percentual de pessoas com salário até ", "R$100,00 é ", percentual / 20 * 100, "%\n")
 		
 	}
 }
